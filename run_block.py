@@ -276,6 +276,6 @@ def save_event_data(filename):
     data.to_json(task_set_csv_dir + "/" + filename, orient='records')
 
 
-win = start_experiment([800, 800])  # [800, 800]
+win = start_experiment()  # [800, 800]
 
 run_block(1)  # uncomment to run the block
